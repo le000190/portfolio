@@ -1,0 +1,222 @@
+  
+@import url('https://fonts.googleapis.com/css?family=Imprima');
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Imprima', Helvetica, Arial, sans-serif;
+}
+
+header {
+    /* height: 20rem; */
+    text-align: center;
+    align-content: center;
+    background-color: #da84c4;
+}
+
+.page_title {
+    font-size: 7vw;
+}
+
+#aboutMe {
+    background-color: #da84c4;
+    max-height: 40%;
+}
+#myImage {
+    max-height: 50%;
+}
+#portfolio {
+    width: 80%;
+    margin: 0.1rem auto;
+}
+.img_title {
+    width: 100px;
+    height: 100px;
+}
+
+/* header nav {
+    color: black;
+}
+
+header nav:hover {
+    text-decoration: none;
+    color: #199696;
+} */
+
+header h1 {
+    font-size: 6vw;
+}
+
+.name {
+    padding-left: 8rem;
+}
+
+/* .blur {
+    padding: 0.5rem;
+}
+
+.blur:hover {
+    filter: drop-shadow(1rem 2rem 1rem #199696) blur(0.04rem);
+    border: 0.2rem solid #199696;
+} */
+
+.rows {
+    padding: 2rem 2rem;
+}
+
+.technology {
+    margin: 1.5rem;
+    border-bottom: 0.1rem solid #199696;
+    padding: 1rem 0;
+}
+
+.technology:last-child {
+    border-bottom: none;
+}
+
+.detail p {
+    line-height: 1.3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.normal-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+
+    margin: 0.1rem auto;
+    padding: 0.8rem;
+}
+
+/* css for portfolio page */
+
+.card {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*css for contact page*/
+.contact-header > h1 {
+    font-size: 1.3rem;
+}
+
+
+@media (max-width:575.98px) {
+
+    html {
+        line-height: 1.3;
+    }
+
+    .technology {
+        margin: 0;
+    }
+
+    .cards-header > h1 {
+        font-size: 1.25rem;
+    }
+
+    .contact-header > h1 {
+        font-size: 1.25rem;
+        ;
+    }
+    #portfolio {
+        width: 100%;
+        padding: 0.25rem;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.90px) {
+    .detail p {
+        font-size: 1.2rem;
+    }
+
+    .cards-header > h1 {
+        font-size: 1.3rem;
+    }
+
+    .contact-header > h1 {
+        font-size: 1.3rem;
+        ;
+    }
+
+    .le {
+        width: 18rem;
+        height: 18rem;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991.90px) {
+    .detail p {
+        font-size: 1.3rem;
+    }
+
+    .cards-header > h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-header > h1 {
+        font-size: 1.5rem;
+        ;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199.90px) {
+    .detail p {
+        font-size: 1.4rem;
+    }
+
+    .img_title {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards-header > h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-header > h1 {
+        font-size: 1.8rem;
+        ;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        font-size: 1.3rem !important;
+    }
+
+    .cards-header > h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-header > h1 {
+        font-size: 1.8rem;
+        ;
+    }
+
+    .detail p {
+        font-size: 1.4rem;
+    }
+
+    .img_title {
+        width: 150px;
+        height: 150px;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
+}
